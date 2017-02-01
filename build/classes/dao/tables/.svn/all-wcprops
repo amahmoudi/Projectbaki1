@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/5/trunk/BCS01/src/dao/tables
+END
+Adminuser.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/BCS01/src/dao/tables/Adminuser.java
+END
+Config.class
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/BCS01/src/dao/tables/Config.class
+END
+Adminuser.class
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/BCS01/src/dao/tables/Adminuser.class
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/BCS01/src/dao/tables/Category.java
+END
+Order.class
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/BCS01/src/dao/tables/Order.class
+END
+Category.class
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/BCS01/src/dao/tables/Category.class
+END
+Orderitems.class
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/BCS01/src/dao/tables/Orderitems.class
+END
+User.class
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/BCS01/src/dao/tables/User.class
+END
+Cities.class
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/BCS01/src/dao/tables/Cities.class
+END
+Product.class
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/BCS01/src/dao/tables/Product.class
+END

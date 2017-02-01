@@ -1,0 +1,80 @@
+package action.category;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.struts2.ServletActionContext;
+
+import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ModelDriven;
+import com.opensymphony.xwork2.validator.annotations.Validation;
+
+import common.commonAction;
+
+import dao.domain.impl.CategoryDaoImpl;
+import dao.tables.Category;
+
+@Validation 
+public class CategoryAction extends commonAction implements
+		ModelDriven<Category> {
+
+	CategoryDaoImpl dao = new CategoryDaoImpl();
+	Category model;
+	List<Category> category = new ArrayList<Category>();
+
+	ActionContext context = ActionContext.getContext();
+	HttpServletRequest request = (HttpServletRequest) context
+			.get(ServletActionContext.HTTP_REQUEST);
+
+	@Override
+	public String execute() throws Exception {
+		// TODO Auto-generated method stub
+		category = dao.showAll();
+		setCategory(category);
+		return SUCCESS;
+	}
+
+	public List<Category> getCategory() {
+		return category;
+	}
+
+	public void setCategory(List<Category> category) {
+		this.category = category;
+	}
+
+	
+	
+	public String addCategory() {
+		
+		dao.addCategory(model);
+		return "addCategory";
+	}
+
+	public String deleteCategory() {
+		String Catid = request.getParameter("id");
+		int id = Integer.parseInt(Catid);
+		dao.delete(id);
+		return "deleted";
+	}
+	public String updateCategory() {
+		if (model.getCategoryname().length()==0) {
+			addFieldError("categoryname", getText("error"));
+			return INPUT;
+		}		
+		dao.updateCategory(model);
+		category = dao.showAll();
+		setCategory(category);
+		return "updated";
+	}
+
+	@Override
+	public Category getModel() {
+		// TODO Auto-generated method stub
+		model = new Category();
+		return model;
+	}
+
+
+}

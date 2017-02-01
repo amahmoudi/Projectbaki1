@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11/trunk/BCS01/src/dao/domain
+END
+CategoryDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/BCS01/src/dao/domain/CategoryDao.class
+END
+UserDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/BCS01/src/dao/domain/UserDao.class
+END
+CitiesDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/BCS01/src/dao/domain/CitiesDao.class
+END
+ProductDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/BCS01/src/dao/domain/ProductDao.class
+END
+AdminUserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/11/trunk/BCS01/src/dao/domain/AdminUserDao.java
+END
+ConfigDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/BCS01/src/dao/domain/ConfigDao.class
+END
+AdminUserDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/BCS01/src/dao/domain/AdminUserDao.class
+END
+CategoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/10/trunk/BCS01/src/dao/domain/CategoryDao.java
+END
+OrderItemDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/BCS01/src/dao/domain/OrderItemDAO.class
+END
+OrderDao.class
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/BCS01/src/dao/domain/OrderDao.class
+END
