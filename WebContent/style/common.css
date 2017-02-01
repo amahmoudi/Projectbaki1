@@ -1,0 +1,566 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('../polices/ballpark.eot');
+    src: url('../polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('../polices/ballpark.woff') format('woff'),
+         url('../polices/ballpark.ttf') format('truetype'),
+         url('../polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../polices/dayrom.eot');
+    src: url('../polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/dayrom.woff') format('woff'),
+         url('../polices/dayrom.ttf') format('truetype'),
+         url('../polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+
+body
+{
+    background: #E6EAE9;
+    color: #4f6b72;
+	font: normal 11px Arial;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h1, footer h1
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+/*centre la page et donne la largeur pour une basse résolution*/
+#centrer {
+margin-left:auto;
+margin-right:auto;
+width:776px;
+}
+ 
+/*management of table*/
+ tr.odd {
+	background-color: #fff
+}
+
+tr.tableRowEven,tr.even {
+	background-color: #CCCCCC
+}
+td.alt {
+	/*background: #F5FAFA;*/
+	color: #797268;
+}
+
+th.spec {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.specalt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}
+.grouped-table tr.even {
+    background-color: #fff;
+}
+.grouped-table tr.odd {
+    background-color: #fff;
+}
+.group-1 {
+    font-weight:bold;
+    padding-bottom:10px;
+    border-top:1px solid black;
+}
+.group-2 {
+    font-style:italic;
+    border-top: 1px solid black;
+
+}
+/*élément visité*/
+th a,th a:visited {
+	color: black;
+}
+
+header
+{
+    background: url('../images/separateur.png') repeat-x bottom;
+}
+
+#titre_principal
+{
+    display: inline-block;
+}
+
+header h1
+{
+    font-family: '/BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: 69px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('../images/sahra.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24); /* Pour les anciens navigateurs */
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+.bouton_rouge
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('../images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+/* Corps */
+
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+article
+{
+    width: 625px;
+    margin-right: 15px;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    position: relative;
+    width: 235px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+#fleche_bulle
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+#photo_zozor
+{
+    text-align: center;
+}
+
+#photo_zozor img
+{
+    border: 1px solid #181818;
+}
+
+aside img
+{
+    margin-right: 5px;
+}
+
+/* Footer */
+
+footer
+{
+    background:  url('../images/ico_top.png') no-repeat top center, url('../images/separateur.png') repeat-x top, url('../images/ombre.png') repeat-x top;
+    padding-top: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+#tweet, #mes_photos, #mes_amis
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tweet
+{
+    width: 28%;
+}
+
+#mes_photos
+{
+    width: 35%;
+}
+
+#mes_amis
+{
+    width: 31%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#mes_amis ul
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    list-style-image: url('../images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}
+/*ajouter la partie d'ancien css*/
+/* CSS Document */
+
+th{
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding:0 6px 6px 12px;
+	
+}
+td {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	/*background: #fff;*/
+	padding:0 6px 6px 12px;
+	color: #4f6b72;
+}
+thead tr {
+	background-color: #999999;
+}
+
+
+/* Correctifs pour les vieilles versions d'Internet Explorer */
+
+/* Pour activer un positionnement type inline-block sur les vieilles versions d'IE */
+
+.old_ie #titre_principal, .old_ie #logo, .old_ie header h1, .old_ie nav, .old_ie nav li, .old_ie .bouton_rouge, .old_ie article, .old_ie aside, .old_ie #tweet, .old_ie #mes_photos, .old_ie #mes_amis, .old_ie #mes_amis ul
+{
+    display: inline;
+    zoom: 1;
+}
+
+/* Quelques ajustements pour les vieilles versions d'IE */
+
+.old_ie section h1, .ie8 section h1
+{
+    font-size: 1.1em;
+}
+
+.old_ie footer div, .ie8 footer div
+{
+    margin-top: 30px;
+    background: url('../images/separateur.png') repeat-x top;
+}
+.horizontal-nav {
+	background: #efefef;
+	border-radius: 6px;
+}
+.horizontal-nav ul {
+	background: #128F9A;
+	float: left;
+	text-align: center;
+	border-radius: 6px;
+	border: 1px solid #0e7079;
+}
+.horizontal-nav ul li {
+	float: left;
+	border-left: 1px solid #0e7079;
+}
+.horizontal-nav ul li:first-child {
+	border-left: 0 none;
+}
+.horizontal-nav ul li a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	border-top: 1px solid rgba(255,255,255, 0.25);
+	border-left: 1px solid rgba(255,255,255, 0.25);
+}
+.horizontal-nav ul li:first-child a {
+	border-left: 0 none;
+}
+.horizontal-nav ul li a:hover {
+	background: #12808a;
+}
+.horizontal-nav ul li:first-child a {
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+.horizontal-nav ul li:last-child a {
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+/* top level
+--------------------------------------------*/
+.menuTemplate1
+{
+    /* You will get totally diffrent menu alignment and layout by setting following margin, width, and float with different values.
+    For detailed instruction please visit www.menucool.com/horizontal/change-menu-alignment  */
+    margin: 0 auto; width: auto;float:left;
+    /*following "behavior" works for IE6, IE7, and IE8. Other browsers will ignore it.*/
+    /*Note: htc file path(if using relative path) inside the CSS file should be relative to the page, not to the CSS file (this is unlike image path inside the CSS that is relative to the CSS file location only). 
+    So we recommend using the absolute path for the behavior file.*/
+    behavior: url("/horizontal/menuh/cssmenu.htc");
+    position:relative;
+    z-index:4;
+    height: 36px;
+    background: #D4D4D4 url(bg.gif);
+    border: 1px solid #BBB;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 0;
+}
+.menuTemplate1 li
+{
+    padding: 0;
+    float: left;
+    height: 36px;
+    position: relative;/*delete it if you want submenu to be positioned relative to the whole menu instead of this li element*/
+    color: black;
+    z-index:5;
+}
+
+.menuTemplate1 a
+{
+    padding: 0 30px;
+    line-height: 36px; /*Note: keep this value the same as the height of .menuTemplate1 li */
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    outline: 0;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.menuTemplate1 li:hover a, .menuTemplate1 li.onhover a
+{
+    background: white url(bg.gif) repeat-x 0 -48px;
+    color: #000;
+    z-index: 9;
+}
+.menuTemplate1 a.arrow
+{
+    background: url(arrow.gif) no-repeat right center;
+}
+ 
+        
+/*Used to align a top-level item to the right*/        
+.menuTemplate1 li.menuRight
+{
+    float: right;
+    margin-right: 0px;
+}
+        
+/*for the top-level separators*/
+.menuTemplate1 li.separator
+{
+    font-size:0;
+    overflow:hidden;
+    border-left:1px solid #F7F7F7;
+    border-right:1px solid #BBBBBB;
+    z-index:4;
+}
+               
+        
+/* sub level
+--------------------------------------------*/
+        
+.menuTemplate1 .drop
+{
+    position: absolute;
+    z-index:5;
+    left: -9999px;
+    border: 1px solid #DDD;
+    border-bottom:3px solid #0F4F89;
+    background: #FFF;            
+    text-align: left;
+    padding: 20px;  
+    color:#0F4F89;
+    top:34px;              
+}
+
+.menuTemplate1 .drop a
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 26px;
+    font-size: 12px;
+    font-weight: normal;
+    display: inline;
+    text-align: left;
+    
+    position: static;
+    z-index: 0;
+    background-image:none;
+}
+
+.menuTemplate1 li:hover .drop, .menuTemplate1 li.onhover .drop
+{
+    left: -1px;/*Use this property to change offset of the dropdown*/
+    background:white url(bg-right.png) no-repeat right bottom;
+}
+.menuTemplate1 li:hover .dropToLeft, .menuTemplate1 li.onhover .dropToLeft
+{
+    left: auto;
+    right: -1px;
+    background:white url(bg-left.png) no-repeat 0 bottom;
+}
+.menuTemplate1 li:hover .dropToLeft2, .menuTemplate1 li.onhover .dropToLeft2
+{
+    left: auto;
+    right: -60px;
+}
+
+/* Elements within the drop down sub-menu
+--------------------------------------------*/
+
+.menuTemplate1 div.drop div div
+{
+    padding: 6px 20px;
+}
+.menuTemplate1 li:hover .drop a, .menuTemplate1 li.onhover .drop a
+{
+    background: none;
+    background-image:none;
+    padding:0 0;
+}
+.menuTemplate1 div.drop div a
+{
+    line-height: 24px;  
+    color: #0F4F89;
+    background:none;
+}
+.menuTemplate1 div.drop div a:hover
+{
+    text-decoration:underline;
+    cursor:pointer;
+    color:Red;
+}
+
+.menuTemplate1 div.left {float:left;}
+
+        
+/* CSS3 effects
+--------------------------------------------*/
+
+/*for top-level*/     
+.decor1_1 
+{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+    -moz-box-shadow: 0px 1px 4px #ccc;
+    -webkit-box-shadow: 0px 1px 4px #ccc;
+    box-shadow: 0px 1px 4px #ccc;
+            
+}
+
+/*for submenu.*/    
+.decor1_2 
+{
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+
+    -moz-box-shadow: 0px 12px 20px #CCCCCC;
+    -webkit-box-shadow: 0px 12px 20px #CCCCCC;
+    box-shadow: 0px 12px 20px #CCCCCC;  
+}

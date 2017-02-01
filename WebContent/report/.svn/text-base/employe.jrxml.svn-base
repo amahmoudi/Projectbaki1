@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<subDataset name="employe">
+		<queryString language="SQL">
+			<![CDATA[SELECT
+     name,
+     adress,
+     employe.`name` AS employe_name,
+     employe.`adress` AS employe_adress
+FROM
+     `employe` employe]]>
+		</queryString>
+		<field name="name" class="java.lang.String"/>
+		<field name="adress" class="java.lang.String"/>
+		<group name="name">
+			<groupExpression><![CDATA[$F{name}]]></groupExpression>
+		</group>
+	</subDataset>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<componentElement>
+				<reportElement x="105" y="0" width="270" height="125"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="employe">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource(1)]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="90">
+						<jr:tableHeader height="30" rowSpan="1"/>
+						<jr:tableFooter height="30" rowSpan="1"/>
+						<jr:columnHeader height="30" rowSpan="1"/>
+						<jr:columnFooter height="30" rowSpan="1"/>
+						<jr:detailCell height="30" rowSpan="1"/>
+					</jr:column>
+					<jr:column width="90">
+						<jr:tableHeader height="30" rowSpan="1"/>
+						<jr:tableFooter height="30" rowSpan="1"/>
+						<jr:columnHeader height="30" rowSpan="1"/>
+						<jr:columnFooter height="30" rowSpan="1"/>
+						<jr:detailCell height="30" rowSpan="1"/>
+					</jr:column>
+					<jr:column width="90">
+						<jr:tableHeader height="30" rowSpan="1"/>
+						<jr:tableFooter height="30" rowSpan="1"/>
+						<jr:columnHeader height="30" rowSpan="1"/>
+						<jr:columnFooter height="30" rowSpan="1"/>
+						<jr:detailCell height="30" rowSpan="1"/>
+					</jr:column>
+					<jr:column width="90">
+						<jr:tableHeader height="30" rowSpan="1"/>
+						<jr:tableFooter height="30" rowSpan="1"/>
+						<jr:columnHeader height="30" rowSpan="1"/>
+						<jr:columnFooter height="30" rowSpan="1"/>
+						<jr:detailCell height="30" rowSpan="1"/>
+					</jr:column>
+					<jr:column width="90">
+						<jr:tableHeader height="30" rowSpan="1"/>
+						<jr:tableFooter height="30" rowSpan="1"/>
+						<jr:columnHeader height="30" rowSpan="1"/>
+						<jr:columnFooter height="30" rowSpan="1"/>
+						<jr:detailCell height="30" rowSpan="1"/>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.custom.i18n.resources" value="global" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.convention.action.suffix" value="Controller"/>
+	<constant name="struts.convention.action.mapAllMatches" value="true"/>
+	<constant name="struts.convention.default.parent.package" value="rest-default"/>
+
+
+	<package name="default" extends="struts-default" >
+		<action name="login" class="action.admin.AdminUserAction">
+			<result name="success">/pages/dashboard.jsp</result>
+			<result name="input">/pages/login/login.jsp</result>
+		</action>
+		<action name="dashboard" class="action.admin.AdminUserAction" method="loadDashboard">
+			<result name="success">/pages/dashboard.jsp</result>
+		</action>
+		<action name="myremoteactionone" class="action.admin.AdminUserAction" method="myremoteactionone">
+			<result name="success">/pages/dashboard.jsp</result>
+		</action>
+		<action name= "myremoteactiontwo" class="action.admin.AdminUserAction" method="myremoteactiontwo">
+			<result name="success">/pages/dashboard.jsp</result>
+		</action>
+		<action name ="myremoteactionthree" class="action.admin.AdminUserAction" method="myremoteactionthree">
+			<result name="success">/pages/dashboard.jsp</result>
+		</action>
+	</package>
+	<package name="jsontable" extends="struts-default,json-default" >
+			<action name="jsontable" class="grid.JsonTable">
+				<result type="json">
+					<param name="excludeNullProperties">true</param>
+					<param name="enableGZIP">true</param>
+				</result>
+			</action>
+    </package>
+
+
+</struts>

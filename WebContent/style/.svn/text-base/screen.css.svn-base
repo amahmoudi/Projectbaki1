@@ -1,0 +1,5 @@
+@CHARSET "windows-1256";
+.tab_contents_header2{
+	top:90px;
+	height:700px;
+}

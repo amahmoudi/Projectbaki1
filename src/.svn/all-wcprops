@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/12/trunk/BCS01/src
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/BCS01/src/hibernate.cfg.xml
+END
+Script.sql
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/10/trunk/BCS01/src/Script.sql
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11/trunk/BCS01/src/struts.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/10/trunk/BCS01/src/applicationContext.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/12/trunk/BCS01/src/log4j.properties
+END
+global.properties
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4/trunk/BCS01/src/global.properties
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12/trunk/BCS01/WebContent/WEB-INF
+END
+dispatcher-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/10/trunk/BCS01/WebContent/WEB-INF/dispatcher-servlet.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/BCS01/WebContent/WEB-INF/applicationContext.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/10/trunk/BCS01/WebContent/WEB-INF/web.xml
+END

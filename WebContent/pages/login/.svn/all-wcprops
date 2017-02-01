@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/7/trunk/BCS01/WebContent/pages/login
+END
+logoutPage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/trunk/BCS01/WebContent/pages/login/logoutPage.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/BCS01/WebContent/pages/login/login.jsp
+END

@@ -1,0 +1,7 @@
+/* Définition des polices personnalisées */
+.wwFormTable {
+    margin-top: 25%;
+    margin-left: 38%;
+    position: relative;
+	
+}
