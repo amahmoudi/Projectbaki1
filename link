@@ -21,3 +21,4 @@ https://github.com/wbotelhos/spring-batch-database-flat-file
 https://github.com/dzinot/spring-boot-jpa-data-rest-soft-delete/blob/master/src/main/java/com/kristijangeorgiev/softdelete/repository/SoftDeletesRepositoryImpl.java
 
 https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Maven
+http://www.coding-stories.com/blog/2012/01/23/couverture-des-tests-dintegration-avec-jacoco-maven-et-sonar/
